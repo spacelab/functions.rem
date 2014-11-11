@@ -6,13 +6,13 @@
     "Daniel Blomeyer"
   ],
   "description": "here be a description",
-  "main": "_spacelab-functions.rem.scss",
+  "main": "_functions.rem.scss",
   "keywords": [
     "spacelab",
     "css"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/comspace-dev/spacelab-functions.rem/",
+  "homepage": "https://github.com/spacelab/functions.rem/",
   "private": true,
   "ignore": [
     "**/.*",
