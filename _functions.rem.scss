@@ -1,4 +1,10 @@
 // convert a px value to rem
 @function rem($value) {
-  @return $value / 16px + rem;
+  @if unit($value) == px {
+    @return $value / 16px + rem;
+  } @else if unitless($value) {
+    @return $value / 16 + rem;
+  } @else {
+    @error "$value may either be a px or unitless number, was #{$value}."
+  }
 }
